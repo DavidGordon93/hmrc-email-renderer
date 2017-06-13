@@ -1,11 +1,12 @@
-@(params: Map[String, Any])Confirmation Email
+@(params: Map[String, Any])Advance Assurance application received
 
-Confirmation Email
+We received your Advance Assurance application for @{params("companyName")} on @{params("date")}
 
+Your application reference number is @{params("formBundleRefNumber")}
 
-@{params("companyName")}
-@{params("date")}
-@{params("formBundleRefNumber")}
+What happens next
+
+We’ll let you know the outcome of your application within 4 weeks.
 
 From HMRC
 
